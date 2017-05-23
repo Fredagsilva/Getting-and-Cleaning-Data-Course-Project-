@@ -8,9 +8,9 @@ The data sets were obtained from this site: http://archive.ics.uci.edu/ml/datase
 In this repo are the files:
 
 - run_analisys.R <- In this file is the script and the explanation of the code that creates 3 Data sets:
- 1. Fullset: data set with the two data sets from the site (train set and test set).
- 2. Newset: data set with just the columns with means and std deviation from the measures.
- 3. Finalset: data with the average means and std deviation of each Subject and Activity.
+ 
+ 1. Newset: data set with just the columns with means and std deviation from the measures.
+ 2. Finalset: data with the average means and std deviation of each Subject and Activity.
    
  - README.md <- This file that explains the project.
  - Codebook.md <- A code book that describes the variables, the data, and the transformations.
