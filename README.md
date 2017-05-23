@@ -6,16 +6,20 @@ The work consists in clean, merge and manipulate two data sets according with in
 The data sets were obtained from this site: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 In this repo are the files:
- -run_analisys.R <- In this file is the script and the explanation of the code that creates 3 Data sets:
-   .Fullset: data set with the two data sets from the site (train set and test set).
-   .Newset: data set with just the columns with means and std deviation from the measures.
-   .Finalset: data with the average means and std deviation of each Subject and Activity.
- -README.md <- This file that explains the project.
- -Codebook.md <- A code book that describes the variables, the data, and the transformations.
- 
- The Script with the code and explanation is in this file due the request of the course project:
- SCRIPT OF THE PROJECT:
- 
+
+- run_analisys.R <- In this file is the script and the explanation of the code that creates 3 Data sets:
+ 1. Fullset: data set with the two data sets from the site (train set and test set).
+ 2. Newset: data set with just the columns with means and std deviation from the measures.
+ 3. Finalset: data with the average means and std deviation of each Subject and Activity.
+   
+ - README.md <- This file that explains the project.
+ - Codebook.md <- A code book that describes the variables, the data, and the transformations.
+
+The Script with the code and explanation is in this file due the request of the course project:
+
+SCRIPT OF THE PROJECT:
+
+```
 #Select the directory to work
 setwd("~/provafinal/")
 #Download the file
@@ -86,3 +90,4 @@ print(newset) #shows the set with all the mean and std measured
 #Shows the Set with the average of all the Mean and Std measures
 print ("Set with the average MEAN and STD of each individual and activity")
 print(finalset)# show a resume set with all the average measure 
+```
